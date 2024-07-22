@@ -1,0 +1,67 @@
+.image {
+  width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px,
+    rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 74% 26% 65% 35% / 71% 33% 67% 29%;
+  background-color: #8d400a;
+}
+
+.unordered-list {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  list-style-type: circle;
+}
+.ordered-list {
+  list-style-image: url(recipe-book-svgrepo-com.svg);
+}
+.ingredients {
+  font-size: large;
+
+  line-height: 70px;
+}
+header {
+  margin: 30px;
+
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.recipe-details {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px,
+    rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  border-radius: 50px;
+  color: #4e0538;
+}
+
+ol {
+  margin-left: 35px;
+  text-align: right;
+
+  width: 500px;
+}
+.main {
+  background-color: #e4c305;
+  border-radius: 10px;
+}
+.dry {
+  background-color: #eeeb4c;
+  border-radius: 10px;
+}
+.bake {
+  background-color: #d9cd23;
+  border-radius: 10px;
+}
+li {
+  border: 3px solid #612b05;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: rgba(0, 2, 2, 0.35) 1.95px 1.95px 2.6px;
+}
+H1 {
+  color: #8d400a;
+  text-shadow: 1px 1px 2px rgb(235, 227, 6), 0 0 1em #8d400a, 0 0 0.2em blue;
+}
